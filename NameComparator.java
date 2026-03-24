@@ -1,9 +1,0 @@
-import java.util.*;
-class NameComparator implements Comparator<Studentinfo>
-{
-          public int compare(Studentinfo s1,Studentinfo s2)
-         {
-
-          return s1.name.compareTo(s2.name);
-          }
-}
